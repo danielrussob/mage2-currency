@@ -1,5 +1,5 @@
 {
-    "name": "dnafactory/currency",
+    "name": "dnafactory/mage2-currency",
     "description": "",
     "require": {
         "php": "^7.0|^7.1",
