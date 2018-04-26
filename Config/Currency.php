@@ -19,7 +19,8 @@ class Currency
 
     public function getPositionByBaseCode($baseCode)
     {
-        if($position = $this->_scopeConfig->getValue('dnafactory/currency/position', ScopeInterface::SCOPE_STORE) == '') {
+        $position = (int)$this->_scopeConfig->getValue('dnafactory/currency/position', ScopeInterface::SCOPE_STORE);
+        if($position == '') {
             $position = \Magento\Framework\Currency::LEFT;
         }
         $positions = ['EUR' => $position];
