@@ -34,13 +34,5 @@
         "psr-4": {
             "DNAFactory\\Currency\\": ""
         }
-    },
-    "extra": {
-        "map": [
-            [
-                "*",
-                "DNAFactory/Currency"
-            ]
-        ]
     }
 }
