@@ -2,7 +2,7 @@
     "name": "dnafactory/mage2-currency",
     "description": "",
     "require": {
-        "php": "^7.0|^7.1",
+        "php": "^7.0|^7.1|^7.2",
         
         "magento/magento-composer-installer": "*"
     },
