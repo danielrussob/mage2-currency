@@ -1,6 +1,7 @@
 {
     "name": "dnafactory/mage2-currency",
-    "description": "",
+    "description": "Modulo che permette di spostare la currency su Magento",
+    "keywords": ["Magento2"],
     "require": {
         "php": "^7.0|^7.1|^7.2",
         
