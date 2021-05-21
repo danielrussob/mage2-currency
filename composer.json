@@ -1,10 +1,13 @@
 {
     "name": "dnafactory/mage2-currency",
+    "type": "magento2-module",
     "description": "Modulo che permette di spostare la currency su Magento",
     "keywords": ["Magento2"],
+    "license": [
+        "OSL-3.0"
+    ],
     "require": {
-        "php": "^7.0|^7.1|^7.2",
-        
+        "php": "^7.1|^7.2|^7.3|^7.4",
         "magento/magento-composer-installer": "*"
     },
     "authors": [
@@ -20,13 +23,6 @@
             "homepage": "https://www.danielrussob.it",
             "role": "Developer"
         }
-    ],
-    "suggest": {
-
-    },
-    "type": "magento2-module",
-    "license": [
-
     ],
     "autoload": {
         "files": [
